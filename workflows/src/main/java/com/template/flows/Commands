@@ -1,0 +1,10 @@
+Running the cordapp
+ gradlew clean deployNodes
+
+ call build/nodes/runnodes.bat
+
+ flow
+
+ start shipmentFlow model: Cybertruck , owner: "O=SpaceX,L=New York,C=US"
+
+ run vaultQuery contractStateType: com.template.states.CarState
